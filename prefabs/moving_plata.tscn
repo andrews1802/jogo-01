@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://fqqxiyi8j6vp"]
+
+[ext_resource type="Texture2D" uid="uid://dhjx1don7hjpc" path="res://assets/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png" id="1_3vkqb"]
+[ext_resource type="Script" path="res://scripts/moving_plata.gd" id="1_yv5u8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t6wik"]
+size = Vector2(32, 17.5)
+
+[node name="moving_plata" type="Node2D"]
+script = ExtResource("1_yv5u8")
+
+[node name="plata" type="AnimatableBody2D" parent="."]
+
+[node name="Blocks(16X16)" type="Sprite2D" parent="plata"]
+position = Vector2(1078, 220)
+scale = Vector2(1.03125, 1.3125)
+texture = ExtResource("1_3vkqb")
+region_enabled = true
+region_rect = Rect2(96, 64, 32, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="plata"]
+position = Vector2(1078, 219.25)
+shape = SubResource("RectangleShape2D_t6wik")

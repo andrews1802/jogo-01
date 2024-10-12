@@ -200,6 +200,11 @@ physics_interpolation_mode = 1
 position = Vector2(563.5, 306)
 shape = SubResource("RectangleShape2D_qhwpi")
 
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+physics_interpolation_mode = 1
+position = Vector2(563.5, 306)
+shape = SubResource("RectangleShape2D_qhwpi")
+
 [node name="BG" type="ParallaxBackground" parent="."]
 
 [node name="01" type="ParallaxLayer" parent="BG"]

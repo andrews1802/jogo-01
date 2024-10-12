@@ -251,19 +251,19 @@ scale = Vector2(1.5, 1.5)
 texture = ExtResource("9_k0ns5")
 centered = false
 
-[node name="moving_plata" parent="." instance=ExtResource("10_e2ejy")]
+[node name="placa-01" parent="." instance=ExtResource("10_e2ejy")]
 position = Vector2(-210, 33)
 movie_speed = 4.0
 disntance = 120
 movie_horizonta = false
 
-[node name="moving_plata2" parent="." instance=ExtResource("10_e2ejy")]
+[node name="placa-02" parent="." instance=ExtResource("10_e2ejy")]
 position = Vector2(-142, 16)
 movie_speed = 5.0
 disntance = 207
 
-[node name="moving_plata3" parent="." instance=ExtResource("10_e2ejy")]
+[node name="placa-03" parent="." instance=ExtResource("10_e2ejy")]
 position = Vector2(142, 47)
-movie_speed = 4.5
+movie_speed = 4.7
 disntance = 120
 movie_horizonta = false
